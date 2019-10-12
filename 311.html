@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>医院新闻</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img class="img-responsive center-block" src="images/logo.png">
+          </a>
+        </div>
+         <div class="logo">
+          <a href="">
+            <img class="img-responsive center-block" src="images/logo2.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+     <div class="topright">
+          <div class="signapp">
+        <!--<a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>-->
+          </div> 
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">医生</option>
+                <option value="">科室</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html" class="cur">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="10yiyuangaikuang.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="11yiyuanjieshao.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="12yiyuanrongyu.html">医院荣誉</a>
+                </p>
+                <p>
+                  <a href="13jiuyihuanjing.html">就医环境</a>
+                </p>
+                <p>
+                  <a href="14yuanrongyuanmao.html">院容院貌</a>
+                </p>
+   
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="20keshizhuanjia.html">科室专家</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="21zhuanjiajieshao.html">专家介绍</a>
+                </p>
+                <p>
+                  <a href="22keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="30xinwenzhongxin.html" >新闻中心</a>
+              </span>
+               <div class="xcsubnav">
+                <p>
+                  <a href="31yiyuanxinwen.html">医院新闻</a>
+                </p>
+                <p>
+                  <a href="32tongzhigonggao.html">通知公告</a>
+                </p>
+                <p>
+                  <a href="33meitibaodao.html">媒体报道</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="40jiankangxuanjiao.html">健康宣教</a>
+              </span>
+               <div class="xcsubnav">
+                <p>
+                  <a href="41jibingchangshi.html">疾病常识</a>
+                </p>
+                <p>
+                  <a href="42heliyongyao.html">合理用药</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="50jiuyizhinan.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="51zhongdianzhuanke.html">重点专科</a>
+                </p>
+                <p>
+                  <a href="52menzhenpaiban.html">门诊排班</a>
+                </p>
+                <p>
+                  <a href="53jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="54zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="55jiaotongzhinan.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="56lianxidianhua.html">联系电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="60quanshijingfang.html" >全市精防</a>
+              </span>
+               <div class="xcsubnav">
+                <p>
+                  <a href="61gongzuodongtai.html">工作动态</a>
+                </p>
+                <p>
+                  <a href="62gongzuoguifan.html">工作规范</a>
+                </p>
+                <p>
+                  <a href="63jingfangxuanchuan.html">精防宣传</a>
+                </p>
+              </div>
+            </li>
+            <li class="last">
+              <span>
+                <a href="70dangqunzhuanti.html" >党群专题</a>
+              </span>
+               <div class="xcsubnav">
+                <p>
+                  <a href="71zhibuhuodong.html">支部活动</a>
+                </p>
+                <p>
+                  <a href="72dangneifagui.html">党内法规</a>
+                </p>
+                <p>
+                  <a href="73jijianjiancha.html">纪检监察</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+<!-- 手机视图 -->
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="11yiyuanjieshao.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="12yiyuanrongyu.html">医院荣誉</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="13jiuyihuanjing.html">就医环境</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="14yuanrongyuanmao.html">院容院貌</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">科室专家</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="21zhuanjiajieshao.html">专家介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="22keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn3" aria-expanded="false" aria-controls="collapseIn3">新闻中心</a>
+        <div class="collapse phonesubnavSub" id="collapseIn3">
+          <dl>
+            <dt>
+              <a href="31yiyuanxinwen.html">医院新闻</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="32tongzhigonggao.html">通知公告</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="33meitibaodao.html">媒体报道</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">健康宣教</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="41jibingchangshi.html">疾病常识</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="42heliyongyao.html">合理用药</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn5" aria-expanded="false" aria-controls="collapseIn5">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn5">
+          <dl>
+            <dt>
+              <a href="51zhongdianzhuanke.html">重点专科</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="52menzhenpaiban.html">门诊排班</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="53jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="54zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="55jiaotongzhinan.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="56lianxidianhua.html">联系电话</a>
+            </dt>
+          </dl>   
+        </div>
+      </li>
+
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn6" aria-expanded="false" aria-controls="collapseIn6">全市精防</a>
+        <div class="collapse phonesubnavSub" id="collapseIn6">
+          <dl>
+            <dt>
+              <a href="61gongzuodongtai.html">工作动态</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="62gongzuoguifan.html">合理用药</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="63jingfangxuanchuan.html">精防宣传</a>
+            </dt>
+          </dl>          
+        </div>
+      </li>
+
+
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn7" aria-expanded="false" aria-controls="collapseIn7">党群专题</a>
+        <div class="collapse phonesubnavSub" id="collapseIn7">
+          <dl>
+            <dt>
+              <a href="71zhibuhuodong.html">支部活动</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="72dangneifagui.html">党内法规</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="73jijianjiancha.html">纪检监察</a>
+            </dt>
+          </dl>          
+        </div>
+      </li>
+
+  </ul>
+</div>
+    </nav>
+    
+
+
+
+
+
+
+    <div class="neibanner row">
+      <img src="images/news3.jpg">
+    </div>
+
+    <div class="webbg row">
+      
+
+
+
+
+    <div class="container newsdetail">
+      <div class="dt-common-title-container">
+        <div class="dt-common-title-txt" id="dt-common-title-txt">市优抚医院召开国庆期间安全工作专题会</div>
+        <div class="dt-common-subtitle-container">
+          <div class="dt-common-date-txt" id="dt-common-date-txt">2019-09-30</div>
+        </div>
+      </div>
+      <div class="dt-common-notice-container">
+            <p>
+              &nbsp;&nbsp;2019年9月30日下午，市优抚医院召开国庆期间安全工作专题会，对医院安全工作进行再细化、再部署、再落实。
+            </p>
+            <p>
+               &nbsp; &nbsp;会上传达学习了市纪委问责通报文件精神，传达了市卫健委《市医院安全生产专业委员会关于进一步加强全市医疗机构安全生产工作的通知》等文件。副院长余凌传达了余友斌副市长、市退役军人事务局和市民政局的有关指示要求，副院长钟云川对国庆期间医院医疗安全提出了具体要求。
+            </p>
+            <p class="jz">
+              <img class="img-responsive center-block" src="images/2019-09-30.jpg">
+            </p>
+            <p>
+               &nbsp; &nbsp;院党支部书记、院长杨精兵强调，在迎国庆、保军运的关键时期，要切实提高安全意识，会后，各病区各科室必须把会议精神传达给每一位干部职工，绷紧安全稳定思想之弦；切实落实值班值守制度，带班领导24小时值班；做好应急处置预案；做好后勤保障工作。
+            </p>
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+    </div>
+     
+ 
+    
+
+    <div class="Homefoot">
+      <div class="wx"><img class="img-responsive center-block" src="images/wx.png"></div>
+      <div class="Homefootcontent">
+       Copyright © 2017 黄冈市优抚医院 All Rights Reserved
+      </div>
+      <div class="Homefootcontent">
+       联系电话： 0713-8813580 医院地址：黄冈市黄州区新港大道65号
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
